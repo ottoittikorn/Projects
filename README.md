@@ -1,5 +1,4 @@
-# MyProjects_2025_2026 
-
+# MyProjects
 ## Projects developed by a person with a big passion to make this world a cleaner and better place  
 
 Here are some of my projects that I've been working on, to build my coding/ data analysis, economic and business skills, and also to answer questions that can help solve global issues!! 
