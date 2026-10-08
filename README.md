@@ -16,7 +16,7 @@ The key insights include:
 - Less than 50% of UK energy generated in 2017 was from fossil fuel sources.
 
 
-The **"Profit or Planet"** project was made to answer a question: if energy companies generate more money, will they become more sustainable? 
+The **"Profit or Planet"** project was made to answer a question: ** if energy companies generate more money, will they become more sustainable? **
 
 I analysed their financial performance using financial statements extracted from Yahoo Finance. Sustainability performance was analysed using the available ESG scores from Yahoo Finance. 
 Both UK and US energy companies were analysed, and all metric units were converted to US units for consistency. 
