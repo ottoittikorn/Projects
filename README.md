@@ -6,7 +6,7 @@ I have also used Python to simulate chemical interactions using Molecular Dynami
 
 The **Energy folder** includes the personal projects I developed relating to the energy transition. 
 
-The project **"Energy Transition"** was made with the goal of helping me understand where we are in the energy transition. 
+The project **Energy Transition** was made with the goal of helping me understand where we are in the energy transition. 
 I used an API from WPI to get data on power plants around the world: their installed capacity, location and type. 
 This project shows the proportion of installed capacity from renewable plants compared to fossil fuel and nuclear plants, demonstrating which countries have high demand and which countries are more sustainable. 
 The key insights include: 
@@ -16,7 +16,7 @@ The key insights include:
 - Less than 50% of UK energy generated in 2017 was from fossil fuel sources.
 
 
-The **"Profit or Planet"** project was made to answer a question: ** if energy companies generate more money, will they become more sustainable? **
+The **Profit or Planet** project was made to answer a question: **if energy companies generate more money, will they become more sustainable?**
 
 I analysed their financial performance using financial statements extracted from Yahoo Finance. Sustainability performance was analysed using the available ESG scores from Yahoo Finance. 
 Both UK and US energy companies were analysed, and all metric units were converted to US units for consistency. 
