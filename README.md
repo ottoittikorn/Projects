@@ -2,7 +2,7 @@
 ## Projects developed out of my own curiosity and the passion to one day make this world a better place.
 
 I graduated with an MEng in Chemical Engineering, where I built my coding skills using MATLAB to simulate industrial processes such as fermentation and adsorption using PFE and ODE. 
-I have also used Python to simulate chemical interactions using Molecular Dynamics and Monte Carlo methods, and trained machine learning surrogate models (RandomForest, MLP, TensorFlow), which can be found in the **academic project** folder in this repository. 
+I have also used Python to simulate chemical interactions using Molecular Dynamics and Monte Carlo methods, and trained machine learning surrogate models (RandomForest, MLP, TensorFlow), which can be found in the **Multiscale Modelling** folder in this repository. 
 
 The **Energy folder** includes the personal projects I developed relating to the energy transition. 
 
