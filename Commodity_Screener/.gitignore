@@ -1,0 +1,11 @@
+# Secrets: API keys live in .env (here or in the repo root), never commit
+.env
+
+# Downloaded data is rebuilt by running the notebooks. Westmetall/LME prices must not be redistributed.
+data/raw/
+data/processed/
+
+# Jupyter / Python clutter
+.ipynb_checkpoints/
+__pycache__/
+.DS_Store

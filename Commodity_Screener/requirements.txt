@@ -1,0 +1,12 @@
+pandas>=3.0
+numpy
+scipy
+matplotlib>=3.9.3  # pandas 3 table styling needs it
+requests
+yfinance
+fredapi
+python-dotenv
+lxml          # pandas.read_html for Westmetall tables
+openpyxl>=3.1.5  # World Bank Pink Sheet (.xlsx); older versions fail with pandas 3
+jinja2>=3.1.5    # pandas table styling in the notebooks
+jupyter
