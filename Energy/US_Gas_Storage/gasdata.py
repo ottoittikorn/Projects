@@ -64,3 +64,17 @@ def surprise_regression(df, surprise="surprise_bcf", y="thu_ret"):
     return {"n": len(df), "slope_%_per_10bcf": fit.params[surprise] * 10,
             "t_stat": fit.tvalues[surprise], "p_value": fit.pvalues[surprise],
             "r2": fit.rsquared, "hit_rate": hit}
+
+
+def rolling_forecast(data, y, x_cols, window=156):
+    """Out-of-sample forecast: for each week, fit OLS on the previous `window` weeks only, then predict."""
+    X = np.column_stack([np.ones(len(data))] + [data[c].to_numpy(float) for c in x_cols])
+    Y = data[y].to_numpy(float)
+    preds = np.full(len(data), np.nan)
+    for i in range(window, len(data)):
+        Xi, Yi = X[i - window : i], Y[i - window : i]
+        ok = ~np.isnan(Xi).any(axis=1) & ~np.isnan(Yi)
+        if ok.sum() > 50 and not np.isnan(X[i]).any():
+            beta = np.linalg.lstsq(Xi[ok], Yi[ok], rcond=None)[0]
+            preds[i] = X[i] @ beta
+    return pd.Series(preds, index=data.index)

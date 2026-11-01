@@ -4,3 +4,5 @@ requests
 yfinance
 python-dotenv
 matplotlib
+scipy
+statsmodels>=0.15  # 0.14 breaks with pandas 3
