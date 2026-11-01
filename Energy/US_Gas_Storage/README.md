@@ -7,8 +7,6 @@
 - **Over a whole winter, storage is more useful, but only on one side.** A "loose storage" signal preceded falling prices in 7 of 11 past winters. A "tight storage" signal did not reliably precede rising prices.
 - **Winter 2026/27: no edge, leaning tight.** Details are in the [verdict](#so-can-you-trade-it) below.
 
-All data is free: EIA API v2, Yahoo Finance and Open-Meteo.
-
 ---
 
 ## Background
@@ -155,16 +153,6 @@ The method carries over to other commodities: oil has the weekly EIA petroleum r
 - **Weather data:** temperatures for 17 US cities, weighted by population (ERA5 data via Open-Meteo). That's an approximation of the gas-weighted degree days that professional desks use.
 - **Winter analogs:** the analog set includes older, colder winters (for example 2013/14), so on a warming climate it may overstate the chance of a Tight outcome. A few projection settings were tuned on the same 11 winters, so the accuracy figures are slightly flattering.
 - **Multiple testing:** several splits were tested (all reports, winter, summer, Friday), so single results near p = 0.05 should be read with caution.
-
-## How to run
-
-1. Get a free EIA API key: https://www.eia.gov/opendata/register.php
-2. Create a `.env` file in the repository root (it's git-ignored):
-   ```
-   EIA_API_KEY=your_key_here
-   ```
-3. Install the requirements: `pip install -r requirements.txt`
-4. Run the notebooks in order (01 → 05). Notebook 01 downloads the data and caches it in `data/`, which is git-ignored and rebuilt on each run.
 
 ## Next steps
 
