@@ -7,3 +7,6 @@
 
 # Cached API downloads - rebuilt by running the notebooks
 **/data/
+
+# Python bytecode
+__pycache__/
