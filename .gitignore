@@ -1,0 +1,9 @@
+# Secrets - API keys live here, never commit
+.env
+
+# macOS / Jupyter clutter
+.DS_Store
+.ipynb_checkpoints/
+
+# Cached API downloads - rebuilt by running the notebooks
+**/data/
